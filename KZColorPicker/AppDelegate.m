@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "KZDefaultColorViewController.h"
 
 @implementation AppDelegate
 
@@ -19,6 +20,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+    
+    KZDefaultColorViewController *pickerController = [[KZDefaultColorViewController alloc] initWithNibName:nil bundle:nil];
+    self.window.rootViewController = pickerController;
+    pickerController.selectedColor = [UIColor whiteColor];
+    [pickerController release];
+    
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

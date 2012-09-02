@@ -13,6 +13,25 @@
 		FA4CE70315F2E99000544934 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA4CE70115F2E99000544934 /* InfoPlist.strings */; };
 		FA4CE70515F2E99000544934 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4CE70415F2E99000544934 /* main.m */; };
 		FA4CE70915F2E99000544934 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4CE70815F2E99000544934 /* AppDelegate.m */; };
+		FA4CE71115F2E9CB00544934 /* KZDefaultColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4CE71015F2E9CB00544934 /* KZDefaultColorViewController.m */; };
+		FA4CE72B15F2E9D700544934 /* checkerboard.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4CE71315F2E9D700544934 /* checkerboard.png */; };
+		FA4CE72C15F2E9D700544934 /* checkerboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4CE71415F2E9D700544934 /* checkerboard@2x.png */; };
+		FA4CE72D15F2E9D700544934 /* KZColorCompareView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4CE71615F2E9D700544934 /* KZColorCompareView.m */; };
+		FA4CE72E15F2E9D700544934 /* KZColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4CE71815F2E9D700544934 /* KZColorPicker.m */; };
+		FA4CE72F15F2E9D700544934 /* KZColorPickerAlphaSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4CE71A15F2E9D700544934 /* KZColorPickerAlphaSlider.m */; };
+		FA4CE73015F2E9D700544934 /* KZColorPickerBrightnessSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4CE71C15F2E9D700544934 /* KZColorPickerBrightnessSlider.m */; };
+		FA4CE73115F2E9D700544934 /* KZColorPickerHSWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4CE71E15F2E9D700544934 /* KZColorPickerHSWheel.m */; };
+		FA4CE73215F2E9D700544934 /* KZColorPickerSwatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4CE72015F2E9D700544934 /* KZColorPickerSwatchView.m */; };
+		FA4CE73315F2E9D700544934 /* KZUnitSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4CE72215F2E9D700544934 /* KZUnitSlider.m */; };
+		FA4CE73415F2E9D700544934 /* colorPickerKnob.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4CE72315F2E9D700544934 /* colorPickerKnob.png */; };
+		FA4CE73515F2E9D700544934 /* colorPickerKnob@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4CE72415F2E9D700544934 /* colorPickerKnob@2x.png */; };
+		FA4CE73615F2E9D700544934 /* HSV.c in Sources */ = {isa = PBXBuildFile; fileRef = FA4CE72515F2E9D700544934 /* HSV.c */; };
+		FA4CE73715F2E9D700544934 /* pickerColorWheel.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4CE72715F2E9D700544934 /* pickerColorWheel.png */; };
+		FA4CE73815F2E9D700544934 /* pickerColorWheel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4CE72815F2E9D700544934 /* pickerColorWheel@2x.png */; };
+		FA4CE73915F2E9D700544934 /* UIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4CE72A15F2E9D700544934 /* UIColor-Expanded.m */; };
+		FA4CE73C15F2EA7D00544934 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4CE73B15F2EA7D00544934 /* QuartzCore.framework */; };
+		FA4CE74715F2EAC500544934 /* License in Resources */ = {isa = PBXBuildFile; fileRef = FA4CE74515F2EAC500544934 /* License */; };
+		FA4CE74815F2EAC500544934 /* Readme.markdown in Resources */ = {isa = PBXBuildFile; fileRef = FA4CE74615F2EAC500544934 /* Readme.markdown */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +45,35 @@
 		FA4CE70615F2E99000544934 /* KZColorPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KZColorPicker-Prefix.pch"; sourceTree = "<group>"; };
 		FA4CE70715F2E99000544934 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FA4CE70815F2E99000544934 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA4CE70F15F2E9CB00544934 /* KZDefaultColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZDefaultColorViewController.h; sourceTree = "<group>"; };
+		FA4CE71015F2E9CB00544934 /* KZDefaultColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZDefaultColorViewController.m; sourceTree = "<group>"; };
+		FA4CE71315F2E9D700544934 /* checkerboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkerboard.png; sourceTree = "<group>"; };
+		FA4CE71415F2E9D700544934 /* checkerboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkerboard@2x.png"; sourceTree = "<group>"; };
+		FA4CE71515F2E9D700544934 /* KZColorCompareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorCompareView.h; sourceTree = "<group>"; };
+		FA4CE71615F2E9D700544934 /* KZColorCompareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorCompareView.m; sourceTree = "<group>"; };
+		FA4CE71715F2E9D700544934 /* KZColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPicker.h; sourceTree = "<group>"; };
+		FA4CE71815F2E9D700544934 /* KZColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPicker.m; sourceTree = "<group>"; };
+		FA4CE71915F2E9D700544934 /* KZColorPickerAlphaSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPickerAlphaSlider.h; sourceTree = "<group>"; };
+		FA4CE71A15F2E9D700544934 /* KZColorPickerAlphaSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPickerAlphaSlider.m; sourceTree = "<group>"; };
+		FA4CE71B15F2E9D700544934 /* KZColorPickerBrightnessSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPickerBrightnessSlider.h; sourceTree = "<group>"; };
+		FA4CE71C15F2E9D700544934 /* KZColorPickerBrightnessSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPickerBrightnessSlider.m; sourceTree = "<group>"; };
+		FA4CE71D15F2E9D700544934 /* KZColorPickerHSWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPickerHSWheel.h; sourceTree = "<group>"; };
+		FA4CE71E15F2E9D700544934 /* KZColorPickerHSWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPickerHSWheel.m; sourceTree = "<group>"; };
+		FA4CE71F15F2E9D700544934 /* KZColorPickerSwatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPickerSwatchView.h; sourceTree = "<group>"; };
+		FA4CE72015F2E9D700544934 /* KZColorPickerSwatchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPickerSwatchView.m; sourceTree = "<group>"; };
+		FA4CE72115F2E9D700544934 /* KZUnitSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZUnitSlider.h; sourceTree = "<group>"; };
+		FA4CE72215F2E9D700544934 /* KZUnitSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZUnitSlider.m; sourceTree = "<group>"; };
+		FA4CE72315F2E9D700544934 /* colorPickerKnob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorPickerKnob.png; sourceTree = "<group>"; };
+		FA4CE72415F2E9D700544934 /* colorPickerKnob@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "colorPickerKnob@2x.png"; sourceTree = "<group>"; };
+		FA4CE72515F2E9D700544934 /* HSV.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HSV.c; sourceTree = "<group>"; };
+		FA4CE72615F2E9D700544934 /* HSV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSV.h; sourceTree = "<group>"; };
+		FA4CE72715F2E9D700544934 /* pickerColorWheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pickerColorWheel.png; sourceTree = "<group>"; };
+		FA4CE72815F2E9D700544934 /* pickerColorWheel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pickerColorWheel@2x.png"; sourceTree = "<group>"; };
+		FA4CE72915F2E9D700544934 /* UIColor-Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-Expanded.h"; sourceTree = "<group>"; };
+		FA4CE72A15F2E9D700544934 /* UIColor-Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Expanded.m"; sourceTree = "<group>"; };
+		FA4CE73B15F2EA7D00544934 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FA4CE74515F2EAC500544934 /* License */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License; sourceTree = SOURCE_ROOT; };
+		FA4CE74615F2EAC500544934 /* Readme.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.markdown; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA4CE73C15F2EA7D00544934 /* QuartzCore.framework in Frameworks */,
 				FA4CE6F915F2E99000544934 /* UIKit.framework in Frameworks */,
 				FA4CE6FB15F2E99000544934 /* Foundation.framework in Frameworks */,
 				FA4CE6FD15F2E99000544934 /* CoreGraphics.framework in Frameworks */,
@@ -62,6 +111,7 @@
 		FA4CE6F715F2E99000544934 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA4CE73B15F2EA7D00544934 /* QuartzCore.framework */,
 				FA4CE6F815F2E99000544934 /* UIKit.framework */,
 				FA4CE6FA15F2E99000544934 /* Foundation.framework */,
 				FA4CE6FC15F2E99000544934 /* CoreGraphics.framework */,
@@ -72,6 +122,11 @@
 		FA4CE6FE15F2E99000544934 /* KZColorPicker */ = {
 			isa = PBXGroup;
 			children = (
+				FA4CE74515F2EAC500544934 /* License */,
+				FA4CE74615F2EAC500544934 /* Readme.markdown */,
+				FA4CE71215F2E9D700544934 /* ColorPicker */,
+				FA4CE70F15F2E9CB00544934 /* KZDefaultColorViewController.h */,
+				FA4CE71015F2E9CB00544934 /* KZDefaultColorViewController.m */,
 				FA4CE70715F2E99000544934 /* AppDelegate.h */,
 				FA4CE70815F2E99000544934 /* AppDelegate.m */,
 				FA4CE6FF15F2E99000544934 /* Supporting Files */,
@@ -88,6 +143,45 @@
 				FA4CE70615F2E99000544934 /* KZColorPicker-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA4CE71215F2E9D700544934 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				FA4CE73A15F2E9DF00544934 /* Images */,
+				FA4CE71515F2E9D700544934 /* KZColorCompareView.h */,
+				FA4CE71615F2E9D700544934 /* KZColorCompareView.m */,
+				FA4CE71715F2E9D700544934 /* KZColorPicker.h */,
+				FA4CE71815F2E9D700544934 /* KZColorPicker.m */,
+				FA4CE71915F2E9D700544934 /* KZColorPickerAlphaSlider.h */,
+				FA4CE71A15F2E9D700544934 /* KZColorPickerAlphaSlider.m */,
+				FA4CE71B15F2E9D700544934 /* KZColorPickerBrightnessSlider.h */,
+				FA4CE71C15F2E9D700544934 /* KZColorPickerBrightnessSlider.m */,
+				FA4CE71D15F2E9D700544934 /* KZColorPickerHSWheel.h */,
+				FA4CE71E15F2E9D700544934 /* KZColorPickerHSWheel.m */,
+				FA4CE71F15F2E9D700544934 /* KZColorPickerSwatchView.h */,
+				FA4CE72015F2E9D700544934 /* KZColorPickerSwatchView.m */,
+				FA4CE72115F2E9D700544934 /* KZUnitSlider.h */,
+				FA4CE72215F2E9D700544934 /* KZUnitSlider.m */,
+				FA4CE72615F2E9D700544934 /* HSV.h */,
+				FA4CE72515F2E9D700544934 /* HSV.c */,
+				FA4CE72915F2E9D700544934 /* UIColor-Expanded.h */,
+				FA4CE72A15F2E9D700544934 /* UIColor-Expanded.m */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
+		FA4CE73A15F2E9DF00544934 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FA4CE71315F2E9D700544934 /* checkerboard.png */,
+				FA4CE71415F2E9D700544934 /* checkerboard@2x.png */,
+				FA4CE72315F2E9D700544934 /* colorPickerKnob.png */,
+				FA4CE72415F2E9D700544934 /* colorPickerKnob@2x.png */,
+				FA4CE72715F2E9D700544934 /* pickerColorWheel.png */,
+				FA4CE72815F2E9D700544934 /* pickerColorWheel@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +236,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA4CE70315F2E99000544934 /* InfoPlist.strings in Resources */,
+				FA4CE72B15F2E9D700544934 /* checkerboard.png in Resources */,
+				FA4CE72C15F2E9D700544934 /* checkerboard@2x.png in Resources */,
+				FA4CE73415F2E9D700544934 /* colorPickerKnob.png in Resources */,
+				FA4CE73515F2E9D700544934 /* colorPickerKnob@2x.png in Resources */,
+				FA4CE73715F2E9D700544934 /* pickerColorWheel.png in Resources */,
+				FA4CE73815F2E9D700544934 /* pickerColorWheel@2x.png in Resources */,
+				FA4CE74715F2EAC500544934 /* License in Resources */,
+				FA4CE74815F2EAC500544934 /* Readme.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +256,16 @@
 			files = (
 				FA4CE70515F2E99000544934 /* main.m in Sources */,
 				FA4CE70915F2E99000544934 /* AppDelegate.m in Sources */,
+				FA4CE71115F2E9CB00544934 /* KZDefaultColorViewController.m in Sources */,
+				FA4CE72D15F2E9D700544934 /* KZColorCompareView.m in Sources */,
+				FA4CE72E15F2E9D700544934 /* KZColorPicker.m in Sources */,
+				FA4CE72F15F2E9D700544934 /* KZColorPickerAlphaSlider.m in Sources */,
+				FA4CE73015F2E9D700544934 /* KZColorPickerBrightnessSlider.m in Sources */,
+				FA4CE73115F2E9D700544934 /* KZColorPickerHSWheel.m in Sources */,
+				FA4CE73215F2E9D700544934 /* KZColorPickerSwatchView.m in Sources */,
+				FA4CE73315F2E9D700544934 /* KZUnitSlider.m in Sources */,
+				FA4CE73615F2E9D700544934 /* HSV.c in Sources */,
+				FA4CE73915F2E9D700544934 /* UIColor-Expanded.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +371,7 @@
 				FA4CE70E15F2E99000544934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
