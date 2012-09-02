@@ -22,4 +22,4 @@ Current Version: 1.0
 Version History:
 1.0 Initial Release Sep 1 / 2012
 
-![](screen.png)
+![](https://raw.github.com/alexrestrepo/KZColorPicker/master/screen.png)
