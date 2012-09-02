@@ -5,6 +5,7 @@ You can use the controller as-is in your own projects, or you could use the KZCo
 The control uses the standard target-action mechanism (via the UIControlEventValueChanged event).
 
 `License`
+
 This code is released under the creative commons attribution-share alike license, meaning:
 
 Attribution - You must attribute the work in the manner specified by the author or licensor 
@@ -20,3 +21,5 @@ Current Version: 1.0
 
 Version History:
 1.0 Initial Release Sep 1 / 2012
+
+![](screen.png)
