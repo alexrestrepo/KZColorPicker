@@ -325,9 +325,9 @@ static NSMutableDictionary *colorNameCache = nil;
 - (NSString *)hexStringFromColor 
 {
     if([self alpha] != 1.0)
-        return [NSString stringWithFormat:@"%0.8X", self.rgbaHex];
+        return [NSString stringWithFormat:@"%0.8X", (unsigned int)self.rgbaHex];
     else
-        return [NSString stringWithFormat:@"%0.6X", self.rgbHex];
+        return [NSString stringWithFormat:@"%0.6X", (unsigned int)self.rgbHex];
 }
 
 + (UIColor *)colorWithString:(NSString *)stringToConvert {
