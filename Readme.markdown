@@ -1,3 +1,6 @@
+> **Note**:
+> You can find a new(er) version [here](https://github.com/alexrestrepo/ColorPicker)
+
 # Color Picker
 
 A HSV Color Picker control and a sample view controller as an example on how to user it.
